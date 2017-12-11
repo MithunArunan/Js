@@ -1,3 +1,10 @@
+/*
+Express - Minimal, flexible Node.js framework
+--Middlewares to handle request/response
+--Routing table 
+--Render dynamic HTML pages
+*/
+
 var express = require('express');
 var app = express();
 
