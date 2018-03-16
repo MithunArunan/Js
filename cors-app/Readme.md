@@ -1,5 +1,10 @@
 # Node.js app with CORS, used for Cross Domain tracking
 
+To run the app as a docker container
+```bash
+docker run -d --name cors-app -p 9999:9999 -it mithun18/cors-app
+```
+
 To build your image locally
 ```bash
 docker build -t cors-app .
